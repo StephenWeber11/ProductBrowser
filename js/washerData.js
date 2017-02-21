@@ -6,7 +6,7 @@
                 '<li class="itembrand col-md-9">' + data.productList[0].brand + '</li>' +
                 '<li class="itemdescription col-md-9">' + data.productList[0].description + '</li>' +
                 '<li class="cart col-md-9"><button type="button" class="btn btn-primary add-to-cart primarybutton">' + 'Add To Cart' + '</button></li>' + 
-                '<li class="itemprice col-md-9"> <p>$' + data.productList[0].pricing.price.retail + '</p></li></ul>');
+                '<li class="itemprice col-md-9"> <p style="float:right">$' + data.productList[0].pricing.price.retail + '</p></li></ul>');
 
             for (var i = 0; i < data.productList.length; i++) {
                 $('#container').append('<div class="productBox-' + i + ' col-md-4"></div>');
